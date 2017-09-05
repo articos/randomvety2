@@ -12,8 +12,7 @@ public class Main {
 
         Sentences sentences = new Sentences();
 
-        sentencesUtil.generateSentence(sentences, 5);
-
+        sentencesUtil.generateSentence(sentences, 8);
 
     }
 }

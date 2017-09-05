@@ -25,28 +25,16 @@ public class Sentences {
     private String[] pum = {"pod stolem", "v lese", "u babičky", "v práci", "na stole"};
 
 
-    public String getPrivlastky(int n) {
-        return this.privlastky[n];
-    }
+    public String getPrivlastky(int n) { return this.privlastky[n]; }
 
-    public String[] getPodmety() {
-        return this.podmety;
-    }
+    public String getPodmety(int n) { return this.podmety[n]; }
 
-    public String[] getPrislovce() {
-        return prislovce;
-    }
+    public String getPrislovce(int n) { return prislovce[n]; }
 
-    public String[] getSlovesa() {
-        return slovesa;
-    }
+    public String getSlovesa(int n) { return slovesa[n]; }
 
-    public String[] getPum() {
-        return pum;
-    }
+    public String getPum(int n) { return pum[n]; }
 
-    public int numberOfWords(){
-        return privlastky.length;
-    }
+    public int numberOfWords() { return privlastky.length; }
 
 }
